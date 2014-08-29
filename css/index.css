@@ -2,6 +2,10 @@ html{
 	background-color: rgb(232,196,178);
 	border-radius: 50px;
 }
+a {text-decoration: none;}
+p a:hover{
+	font-size: 1.5em;	
+}
 header {
 	display: block;
 	text-align: center;
@@ -10,8 +14,60 @@ header {
 	width: 28%;
 	margin-left: 36%;
 }
-.container{
+code{
+	margin-left:20px;
+	padding: 10px;
+	background-color: silver;
+	border-radius: 12px;
+	font-size: 20px;
+	color: rgb(255,68,69);
+}
+code:hover{
+	background-color: rgb(105,191,232);
+	font-size: 1.8em;
+}
+ span{	
+	padding: 3px;
+	background-color: silver;
+	border-radius: 12px;
+	font-size: 20px;
+	color: rgb(255,68,69);
+
+}
+img{
+	margin-left: 20px;
+	border-radius: 12px;
+}
+/*=================*/
+.container {
+	margin-left: 2%;
+	width: 96%;
 	border-radius: 50px;
 	background-color: rgb(232,186,174);
 	text-align: center;
+}
+.nav {
+	background-color: rgb(232,181,166);
+	border-radius: 10px;
+	font-size: 33px;
+}
+.nav ul li{
+	margin-top: 3px;
+	position: relative;
+	float: left;
+	display: block;
+	width: 15%;
+}
+.nav ul li:hover{
+	font-size: 1.5em;
+	border-radius: 10px;
+	background-color: rgb(237,201,189);
+}
+.mainContent{
+	text-align: left;
+}
+.attention
+{
+	background-color: rgb(255,36,55);
+	border-radius: 10px;
 }
