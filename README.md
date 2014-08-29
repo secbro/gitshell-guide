@@ -4,6 +4,7 @@
 
 ####clone
 1.下载gitshell之后，在本地任意目录创建一个文件夹.我在d盘下新建了secbro文件夹
+
 2.运行gitshell,利用如下命令切换到目标文件夹
 
 <code>cd d:/secbro</code>
@@ -24,7 +25,7 @@
 
 <code>git remote</code>
 
-![img](images/remotev.jpg)
+![img](images/remote.jpg)
 
 <code>git remote -v</code>
 
