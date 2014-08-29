@@ -17,7 +17,7 @@
   	
 运行结果：
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/cloneDone.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/cloneDone.jpg)
 
 ####remote
 
@@ -25,11 +25,11 @@
 
 <code>git remote</code>
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/remote.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/remote.jpg)
 
 <code>git remote -v</code>
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/remotev.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/remotev.jpg)
 
 2) 运行git remote add name [url],将你的仓库连接到某个远程服务器
 
@@ -43,7 +43,7 @@ originSec可以换成任意你想要的名字，默认为origin
 
 你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 <code>工作目录</code>，它持有实际文件；第二个是 <code>暂存区（Index）</code>，它像个缓存区域，临时保存你的改动；最后是 <code>HEAD</code>，它指向你最后一次提交的结果。
 
-[![img](www.github.com/secbro/gitshell-guide/blob/master/images/trees.png)](http://rogerdudler.github.io/git-guide/)
+[![img](https://github.com/secbro/gitshell-guide/blob/master/images/trees.png)](http://rogerdudler.github.io/git-guide/)
 
 添加<code>工作目录</code>下的所有文件到<code>暂存区（Index）</code>
 
@@ -58,7 +58,7 @@ originSec可以换成任意你想要的名字，默认为origin
 将修改后的文件提交，之后就可以使用push命令推送到远端仓库
 <code>git commit -m "something"</code>
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/commit.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/commit.jpg)
 
 ####push
 
@@ -66,15 +66,15 @@ originSec可以换成任意你想要的名字，默认为origin
 
 输入账号和密码后，就可以提交项目到仓库啦!
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/lastStep.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/lastStep.jpg)
 
 命令行结果
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/theEnd.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/theEnd.jpg)
 
 网上仓库
 
-![img](http://github.com/secbro/gitshell-guide/blob/master/images/repo.jpg)
+![img](https://github.com/secbro/gitshell-guide/blob/master/images/repo.jpg)
 
 ####其他命令详解
 
