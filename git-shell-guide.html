@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>GitSheel的简单使用</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<header>
+	<h1>GitSheel的简单使用</h1>
+</header>
+<div class="container">
+<h2>最常用的Git命令</h2>
+<p style="margin:0 0 -5px 0;">如果需要更多信息，请移步 <a href="">Git-Guide</a> </p>
+	<div class="nav">
+		<ul>
+			<li><a href="#clone">clone</a></li>
+			<li><a href="#remote">remote</a></li>
+			<li><a href="#add">add</a></li>
+			<li><a href="#commit">commit</a></li>
+			<li><a href="#push">push</a></li>
+			<li><a href="#otherCommand">拓展</a></li>
+		</ul>
+		<br style="clear:both" />
+	</div>
+	<div class="mainContent">
+		<h3 id="clone">1.clone命令</h3>
+		<p>1) 下载gitshell之后，在本地任意目录创建一个文件夹.我在d盘下新建了secbro文件夹</p>
+		<p>2) 运行gitshell,利用如下命令切换到目标文件夹</p>
+		<code>cd d:/secbro</code>
+		<p>3) 运行命令，从Github下载项目到目标文件夹</p>
+		<code>git clone /path/to/repository</code>
+		<br/>
+			<br/><br/>
+		<code>git clone https://github.com/secbro/gitshell-guide</code>
+		<p> 运行结果：</p>
+		<img src="images/clone.jpg">
+		<p>项目被复制到目标文件夹</p>
+		<img src="images/cloneDone.jpg">
+		<h3 id="remote">2.remote命令</h3>
+		<p>1) 运行 git remote</p>
+		<code>git remote</code>
+		<br/><br/>
+		<img src="images/remote.jpg">
+		<br/><br/>
+		<code>git remote -v</code>
+		<br/><br/>
+		<img src="images/remotev.jpg">
+		<h4>注意：</h4>
+		<div ><p><span>git remote -v</span>命令在git下运行结果如上图，但在gitshell下与<span>git remote</span>运行结果相同</p></div>
+		2) 运行git remote add name [url],将你的仓库连接到某个远程服务器
+		<p></p>
+		<code>git remote add originSec https://github.com/secbro/gitshell-guide</code>
+		<p>originSec可以换成任意你想要的名字，默认为origin</p>
+		<h3 id="add">3.add命令</h3>
+		<p style="text-align:center;font-weight:bold;">在使用add命令之前，你需要了解git工作流</p>
+		<p style="text-align:center">你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 <span>工作目录</span>，它持有实际文件；第二个是 <span>暂存区（Index）</span>，它像个缓存区域，临时保存你的改动；最后是 <span>HEAD</span>，它指向你最后一次提交的结果。</p>
+		<p style="text-align:center;"><a href="http://rogerdudler.github.io/git-guide/index.zh.html"><img src="images/trees.png"></a></p>
+		<p>添加<span>工作目录</span>下的所有文件到<span>暂存区（Index）</span></p>
+		<code>git add .</code>
+		<p>添加指定文件到<span>暂存区（Index）</span></p>
+		<code>git add git-shell-guide.html</code>
+		<h3 id="commit">4.commit命令</h3>
+		<code>git commit -m "something"</code>
+		<p>将修改后的文件提交，之后就可以使用push命令推送到远端仓库</p>
+		<img src="images/commit.jpg">
+		<h3 id="push">5.push命令</h3>
+		<code>git push originSec</code>
+		<p>输入账号和密码后，就可以提交项目到仓库啦!</p>
+		<img src="images/lastStep.jpg">
+		<p>命令行结果</p>
+		<img src="images/theEnd.jpg">
+		<p>仓库</p>
+		<img src="images/repo.jpg">
+		<h3 id="otherCommand">6.其他命令</h3>
+		<p style="text-align:center;"><a style="font-size:40px;" href="http://rogerdudler.github.io/git-guide/index.zh.html" class="attention">链接</a> </p>
+	</div>
+	<br/>
+</div>
+
+</body>
+</html>
